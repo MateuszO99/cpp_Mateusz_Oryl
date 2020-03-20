@@ -21,7 +21,7 @@ int znajdz_najmniejsza(const vector<int> & v){
     return min;
 }
 
-
+//
 int main()
 {
     vector<int> v;
