@@ -16,7 +16,7 @@ int fibo2(int n){
     double number = sqrt(5.0);
     return round((1/number)*(pow(2/(number-1), n) - pow(-2/(number+1), n)));
 }
-
+//
 void wypisz(int num){
     for (int i=1; i<=48; i++){
         if (num == 1)
