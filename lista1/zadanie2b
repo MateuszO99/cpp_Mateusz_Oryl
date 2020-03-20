@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int n = 1000000;
+    double result = 1.0, j = 1;
+
+    for (;j <= n; j++){
+        result *= (4*(j*j))/(4*(j*j)-1);
+    }
+
+    result *= 2;
+    cout << "Obliczona wartość: " << result << endl;
+    cout << "Wartość pi: " << M_PI << endl;
+    cout << "Różnica wartości: " << M_PI - result << endl;
+
+    return 0;
+}
