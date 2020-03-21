@@ -9,7 +9,7 @@ double operator* (std::vector<double> const& v, std::vector<double> const& w){
         result += v[i] * w[i];
 
     return result;
-}//
+}
 
 std::ostream & operator<< (std::ostream & F, std::vector<double> const& v){
 	F << "(";
