@@ -13,7 +13,7 @@ void Stos::_grow ()
 }
 
 void Stos::_shrink(){
-    assert(_capacity < 4);
+    assert(_capacity > 4);
 
     _capacity /= 2;
     int* p = new int[_capacity];
